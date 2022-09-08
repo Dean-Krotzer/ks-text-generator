@@ -125,7 +125,7 @@ class textgenrnn:
                        dropout=0.0,
                        via_new_model=False,
                        save_epochs=0,
-                       multi_gpu=True,
+                       multi_gpu=False,
                        **kwargs):
 
         if new_model and not via_new_model:
