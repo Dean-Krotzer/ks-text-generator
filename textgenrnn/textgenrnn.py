@@ -4,6 +4,8 @@ import re
 import numpy as np
 import tensorflow as tf
 import tqdm
+from tensorflow.python.keras.utils.multi_gpu_utils import multi_gpu_model
+from keras.backend import set_session
 from pkg_resources import resource_filename
 from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
