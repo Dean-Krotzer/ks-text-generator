@@ -4,8 +4,6 @@ import re
 import numpy as np
 import tensorflow as tf
 import tqdm
-from tensorflow.python.keras.utils.multi_gpu_utils import multi_gpu_model
-from keras.backend import set_session
 from pkg_resources import resource_filename
 from sklearn.decomposition import PCA
 from sklearn.manifold import TSNE
@@ -17,6 +15,7 @@ from tensorflow.keras.callbacks import LearningRateScheduler
 from tensorflow.keras.models import Model
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.preprocessing.text import Tokenizer, text_to_word_sequence
+from tensorflow.keras.models import Sequential
 
 from .model import textgenrnn_model
 from .model_training import generate_sequences_from_texts
