@@ -1,6 +1,1 @@
-# ks-text-generator
-# ks-text-generator
-# ks-text-generator
-# ks-text-generator
-# ks-text-generator
-# ks-text-generator
+# kotzer software -text-generator
